@@ -1,0 +1,89 @@
+/* Import fun fonts */
+
+
+/* Set general styles */
+body {
+  background-color: #ffe6f0;
+  color: #333333;
+  font-family: 'Patrick Hand', cursive;
+  padding: 20px;
+  margin: 0;
+}
+
+/* Navigation bar */
+nav {
+  text-align: center;
+  margin-bottom: 20px;
+}
+nav a {
+  background-color: #ff7f50;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 20px;
+  margin: 5px;
+  display: inline-block;
+  font-family: 'Fredoka One', cursive;
+}
+
+/* Header section */
+header {
+  background-color: #fff6dc;
+  border: 2px solid #ffd680;
+  border-radius: 16px;
+  padding: 20px;
+  text-align: center;
+}
+header img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid #ffd680;
+  background-color: #fff6dc;
+}
+header h1 {
+  font-family: 'Fredoka One', cursive;
+  font-size: 24px;
+  color: #ff7f50;
+  margin-top: 10px;
+}
+header p {
+  color: #ff7f50;
+  margin: 0;
+}
+
+/* Section styles */
+section {
+  background-color: #fff6dc;
+  border: 2px solid #ffd680;
+  border-radius: 16px;
+  padding: 20px;
+  margin-top: 20px;
+}
+section h2 {
+  font-family: 'Fredoka One', cursive;
+  color: #ff7f50;
+  font-size: 20px;
+  border-bottom: 1px dashed #ffd680;
+  padding-bottom: 5px;
+}
+section p {
+  line-height: 1.5;
+}
+.fun-img {
+  width:250px;
+  display: inline-flex;
+  flex-direction: column;
+  border-radius: 20px;
+  margin:20px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Footer */
+.footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #333333;
+}
